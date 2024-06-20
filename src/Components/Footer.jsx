@@ -1,5 +1,7 @@
 import React from "react";
+import PreLoader from "../Images/Winter.gif";
 
+import "./components.css";
 const Footer = () => {
   return (
     <div className="Footer">
