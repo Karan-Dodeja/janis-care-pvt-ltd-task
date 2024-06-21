@@ -1,5 +1,4 @@
 import React from "react";
-import PreLoader from "../Images/Winter.gif";
 import "./components.css";
 import Header from "./Header";
 import Footer from "./Footer";
@@ -8,6 +7,7 @@ import Img2 from "../Images/mask-2.jpg";
 import Img3 from "../Images/Iodine1.jpg";
 import Img4 from "../Images/mask-3.jpg";
 import Img5 from "../Images/mask-4.jpg";
+import Counter from "./Counter";
 const Home = () => {
   return (
     <>
@@ -31,9 +31,7 @@ const Home = () => {
           </div>
         </div>
         <div className="home-counter">
-          <div className="counter-1"></div>
-          <div className="counter-2"></div>
-          <div className="counter-3"></div>
+          <Counter />
         </div>
         <Footer />
       </div>
